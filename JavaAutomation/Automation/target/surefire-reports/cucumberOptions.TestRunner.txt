@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 4, Skipped: 8, Time elapsed: 1.305 s <<< FAILURE! - in cucumberOptions.TestRunner
+Given Payload of the the add place API with "Vasundra" "Annapoorneshwari Bengaluru" "kannada"(| Vasundra | Annapoorneshwari Bengaluru | kannada |)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+
+| Vasundra | Annapoorneshwari Bengaluru | kannada |  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+
+Given Payload of the the add place API with "Belli nilaya" "Kalyananagar" "kannada"(| Belli nilaya | Kalyananagar | kannada |)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+
+| Belli nilaya | Kalyananagar | kannada |  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+

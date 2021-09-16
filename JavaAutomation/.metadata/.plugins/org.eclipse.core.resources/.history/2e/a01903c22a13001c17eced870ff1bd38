@@ -1,0 +1,22 @@
+package stepDefinitios;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+
+public class AudienceCreation {
+	
+	@Given("^User is in the Audience Dashboard$")
+	public void User_is_in_the_Audience_Dashboard()
+	{
+		
+	}
+	
+	@When("^Creates a simple condition using create option$")
+	public void Creates_a_simple_condition_using_create_option
+	{
+		
+	}
+	
+	
+
+}

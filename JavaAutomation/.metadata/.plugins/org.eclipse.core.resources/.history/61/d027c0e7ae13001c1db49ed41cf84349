@@ -1,0 +1,34 @@
+package stepdefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.And;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+public class MyStepDefinitions {
+
+    @Given("^User is on landing page$")
+    public void user_is_on_landing_page() throws Throwable {
+        throw new PendingException();
+    }
+
+    @When("^User logins using username and password$")
+    public void user_logins_using_username_and_password() throws Throwable {
+        throw new PendingException();
+    }
+
+    @Then("^user is logged in$")
+    public void user_is_logged_in() throws Throwable {
+        throw new PendingException();
+    }
+
+    @And("^Home page is shown up$")
+    public void home_page_is_shown_up() throws Throwable {
+        throw new PendingException();
+    }
+
+}

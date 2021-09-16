@@ -1,0 +1,8 @@
+package cucumber.options;
+
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(feature="src/test/java/feature", glue= {"stepdefinitions"})
+public class TestRunner {
+
+}

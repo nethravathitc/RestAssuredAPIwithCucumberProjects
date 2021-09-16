@@ -1,0 +1,21 @@
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+
+public class AddPlace {
+	
+	@Test
+	public void addPlae()
+	{
+		RestAssured.baseURI="https://rahulshettyacademy.com";
+		
+		given().queryParam("key","qaclick123").header("Content-Type", "application/json")
+		.body("body")
+		.when().post("maps/api/place/add/json")
+		.then().assertThat().statusCode(200);
+		
+		
+	}
+
+}

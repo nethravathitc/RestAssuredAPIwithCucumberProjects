@@ -1,0 +1,13 @@
+Feature: place validations
+
+Scenario Outline: Validate Add place API
+Given Payload of the the add place API with "<name>" "<address>" "<language>"
+When Request is made with "GetPlaceAPI" and method "Delete"
+Then Verify "status" in response body as "OK"
+And Verify "scope" in response body as "APP"
+
+Examples:
+|name|address|language|
+|Vasundra|Annapoorneshwari Bengaluru|kannada|
+|Belli nilaya|Kalyananagar | kannada|
+

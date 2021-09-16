@@ -1,0 +1,7 @@
+Feature: AudienceCreation
+
+Scenario: simpleAudience condtion
+Given User is in the Audience Dashboard
+When Creates a simple condition using create option
+Then Audience should be created with sussfull message display
+And created Audience should be available on the dashboard

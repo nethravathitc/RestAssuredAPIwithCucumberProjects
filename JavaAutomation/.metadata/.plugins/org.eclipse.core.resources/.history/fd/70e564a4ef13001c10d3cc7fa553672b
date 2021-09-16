@@ -1,0 +1,20 @@
+package resources;
+
+public enum APIEndpoint {
+	
+	AddPlaceAPI(""),
+	DeletePlaceAPI(""),
+	GetPlaceAPI("");
+	
+	private String resource;
+	APIEndpoint(String resource)
+	{
+		this.resource=resource;
+	}
+
+	public String getResource()
+	{
+		return resource;
+		
+	}
+}

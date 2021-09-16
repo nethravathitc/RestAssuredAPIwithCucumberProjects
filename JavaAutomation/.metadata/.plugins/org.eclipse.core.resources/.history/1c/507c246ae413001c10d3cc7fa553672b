@@ -1,0 +1,13 @@
+Feature: place validations
+
+Scenario Outline:
+: Validate Add place API
+Given Payload of the the add place API
+When Request is made with "post" method
+Then Verify "status" in response body as "OK"
+And Verify "scope" in response body as "APP"
+
+Examples:
+|name|address|language|
+|Vasundra|Annapoorneshwari Bengaluru|kannada|
+

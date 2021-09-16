@@ -1,0 +1,37 @@
+package stepdefinitions;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.junit.Cucumber;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Login {
+
+	@RunWith(Cucumber.class)
+	public class MyStepDefinitions {
+
+	    @Given("^User is on landing page$")
+	    public void user_is_on_landing_page() throws Throwable {
+	        System.out.println("Given");
+	    }
+
+	    @When("^User logins using username and password$")
+	    public void user_logins_using_username_and_password() throws Throwable {
+	       System.out.println("When");
+	    }
+
+	    @Then("^user is logged in$")
+	    public void user_is_logged_in() throws Throwable {
+	       System.out.println("Then");
+	    }
+
+	    @And("^Home page is shown up$")
+	    public void home_page_is_shown_up() throws Throwable {
+	        System.out.println("And");
+	    }
+	}
+
+}

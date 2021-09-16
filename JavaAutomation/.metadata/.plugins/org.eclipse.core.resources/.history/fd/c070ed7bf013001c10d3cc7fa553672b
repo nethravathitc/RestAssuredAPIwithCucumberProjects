@@ -1,0 +1,52 @@
+package stepdefinitions;
+
+import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.builder.ResponseSpecBuilder;
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
+import pojo.Location;
+import pojo.addPlacePojo;
+import resources.Payload;
+import resources.Utils;
+
+public class PlaceValidation extends Utils {
+	
+	RequestSpecification req;
+	ResponseSpecification res;
+	String responseString;
+	Payload data= new Payload();
+
+	@Given("^Payload of the the add place API with \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$")
+	public void payload_of_the_the_add_place_API_with(String name, String address, String language) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		
+		res= new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+		req=given().spec(requestSpecification()).body(data.addplace(name,address,language));
+	   
+	}
+
+	@When("^Request is made with \"([^\"]*)\" and method \"([^\"]*)\"$")
+	public void request_is_made_with_and_method(String arg1, String arg2) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		req.when().post("maps/api/place/add/json");	   
+	}
+
+	@Then("^Verify \"([^\"]*)\" in response body as \"([^\"]*)\"$")
+	public void verify_in_response_body_as(String arg1, String arg2) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		JsonPath js= new JsonPath(responseString);
+		assertEquals(js.get(arg1).toString(), arg2);
+	    
+	}
+}

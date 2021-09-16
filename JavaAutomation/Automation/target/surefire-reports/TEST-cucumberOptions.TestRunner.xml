@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="1.305" tests="18" errors="4" skipped="8" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ntc\Documents\Learning\RestAssuredAPI\JavaAutomation\Automation\target\test-classes;C:\Users\ntc\Documents\Learning\RestAssuredAPI\JavaAutomation\Automation\target\classes;C:\Users\ntc\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\ntc\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\ntc\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\ntc\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\ntc\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\ntc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ntc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ntc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ntc\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ntc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ntc\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ntc\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ntc\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\ntc\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\ntc\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\ntc\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\ntc\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ntc\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ntc\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ntc\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ntc\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JAVA\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\ntc\AppData\Local\Temp\surefire11038374521228504855\surefirebooter1120395942356622866.jar C:\Users\ntc\AppData\Local\Temp\surefire11038374521228504855 2021-09-14T21-15-54_159-jvmRun1 surefire13914945361796907090tmp surefire_07273129116441437346tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ntc\Documents\Learning\RestAssuredAPI\JavaAutomation\Automation\target\test-classes;C:\Users\ntc\Documents\Learning\RestAssuredAPI\JavaAutomation\Automation\target\classes;C:\Users\ntc\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\ntc\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\ntc\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\ntc\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\ntc\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\ntc\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\ntc\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ntc\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ntc\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ntc\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ntc\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ntc\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\ntc\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ntc\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\ntc\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\ntc\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\ntc\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\ntc\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\ntc\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\ntc\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\ntc\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\ntc\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ntc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-09-25"/>
+    <property name="java.home" value="C:\Program Files\JAVA\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ntc\Documents\Learning\RestAssuredAPI\JavaAutomation\Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ntc\AppData\Local\Temp\surefire11038374521228504855\surefirebooter1120395942356622866.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11+28"/>
+    <property name="user.name" value="ntc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\ntc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ntc\AppData\Local\Temp\"/>
+    <property name="java.version" value="11"/>
+    <property name="user.dir" value="C:\Users\ntc\Documents\Learning\RestAssuredAPI\JavaAutomation\Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\JAVA\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\JAVA\jdk-11\bin;C:\Program Files\AdoptOpenJDK\jdk-13.0.1.9-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Users\ntc\Documents\Learning\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;C:\Users\ntc\AppData\Local\Microsoft\WindowsApps;;C:\Users\ntc\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11+28"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Given User is in Audience Dashboard" classname="Scenario: Simple condition creation" time="0.001"/>
+  <testcase name="When Creates a simple condition using create option" classname="Scenario: Simple condition creation" time="0"/>
+  <testcase name="Then Audience should be created" classname="Scenario: Simple condition creation" time="0"/>
+  <testcase name="And popup message should showup" classname="Scenario: Simple condition creation" time="0"/>
+  <testcase name="And Created audience should appear on dasboard" classname="Scenario: Simple condition creation" time="0"/>
+  <testcase name="Scenario: Simple condition creation" classname="Scenario: Simple condition creation" time="0"/>
+  <testcase name="Given Payload of the the add place API with &quot;Vasundra&quot; &quot;Annapoorneshwari Bengaluru&quot; &quot;kannada&quot;" classname="| Vasundra | Annapoorneshwari Bengaluru | kannada |" time="0.006">
+    <error message="Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+</error>
+    <system-out><![CDATA["https://rahulshettyacademy.com/"
+inside utility "https://rahulshettyacademy.com/"
+]]></system-out>
+  </testcase>
+  <testcase name="| Vasundra | Annapoorneshwari Bengaluru | kannada |" classname="| Vasundra | Annapoorneshwari Bengaluru | kannada |" time="0.007">
+    <error message="Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+</error>
+  </testcase>
+  <testcase name="When Request is made with &quot;AddPlaceAPI&quot; and method &quot;POST&quot;" classname="| Vasundra | Annapoorneshwari Bengaluru | kannada |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Verify &quot;status&quot; in response body as &quot;OK&quot;" classname="| Vasundra | Annapoorneshwari Bengaluru | kannada |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Verify &quot;scope&quot; in response body as &quot;APP&quot;" classname="| Vasundra | Annapoorneshwari Bengaluru | kannada |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Verify place_id created maps to &quot;Vasundra&quot; using &quot;GetPlaceAPI&quot;" classname="| Vasundra | Annapoorneshwari Bengaluru | kannada |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given Payload of the the add place API with &quot;Belli nilaya&quot; &quot;Kalyananagar&quot; &quot;kannada&quot;" classname="| Belli nilaya | Kalyananagar | kannada |" time="0.001">
+    <error message="Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+</error>
+    <system-out><![CDATA["https://rahulshettyacademy.com/"
+inside utility "https://rahulshettyacademy.com/"
+]]></system-out>
+  </testcase>
+  <testcase name="| Belli nilaya | Kalyananagar | kannada |" classname="| Belli nilaya | Kalyananagar | kannada |" time="0.001">
+    <error message="Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath." type="java.lang.IllegalStateException">java.lang.IllegalStateException: Cannot serialize object because no JSON serializer found in classpath. Please put Jackson (Databind), Gson, Johnzon, or Yasson in the classpath.
+</error>
+  </testcase>
+  <testcase name="When Request is made with &quot;AddPlaceAPI&quot; and method &quot;POST&quot;" classname="| Belli nilaya | Kalyananagar | kannada |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Verify &quot;status&quot; in response body as &quot;OK&quot;" classname="| Belli nilaya | Kalyananagar | kannada |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Verify &quot;scope&quot; in response body as &quot;APP&quot;" classname="| Belli nilaya | Kalyananagar | kannada |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Verify place_id created maps to &quot;Belli nilaya&quot; using &quot;GetPlaceAPI&quot;" classname="| Belli nilaya | Kalyananagar | kannada |" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
